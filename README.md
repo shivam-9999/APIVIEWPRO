@@ -6,7 +6,7 @@
      virtualenv myenv
      
 # Activate the environment
-    source/myenv/bin/activate
+    source myenv/bin/activate
     
 # Install djgnorestframework
      pip install djangorestframework.
