@@ -35,11 +35,15 @@
      git remote add origin url
      git status
      git add .
+     git rebase -i HEAD~3   # to modify commit from 3 min ago
+     git commit --amend -m "New Commit Message"  # change the commit message
+     git rm --cached "filename"
      git commit -m "initial commit"
      git branch -m main
      git push -u origin main
      git pull origin main --rebase
      git rebase --continue
+     
      
      
      
